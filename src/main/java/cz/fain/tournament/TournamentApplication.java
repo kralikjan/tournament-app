@@ -8,7 +8,7 @@ public class TournamentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TournamentApplication.class, args);
-
+//pokus
 	}
 
 }
