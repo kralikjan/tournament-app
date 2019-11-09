@@ -12,8 +12,8 @@ import java.util.List;
 public class TournamentService {
 
     //Only for demo - private fields are forbidden at service
-    private List<TournamentDTO> tournaments = Arrays.asList(new TournamentDTO(1, "FAI checkers 2019", LocalDate.of(2019, 11, 2)),
-            new TournamentDTO(2, "FAI checkers 2020", LocalDate.of(2020, 11, 3)));
+    private List<TournamentDTO> tournaments = Arrays.asList(new TournamentDTO(1, "FAI checkers 2019", LocalDate.of(2019, 11, 2),"Zlín"),
+            new TournamentDTO(2, "FAI checkers 2020", LocalDate.of(2020, 11, 3),""));
 
     public List<TournamentDTO> getTournaments() {
         return tournaments;

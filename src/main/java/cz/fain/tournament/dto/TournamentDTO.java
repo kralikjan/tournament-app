@@ -6,15 +6,17 @@ public class TournamentDTO {
 
     private long id;
     private String name;
+    private String place;
     private LocalDate date;
 
     public TournamentDTO() {
     }
 
-    public TournamentDTO(long id, String name, LocalDate date) {
+    public TournamentDTO(long id, String name, LocalDate date, String place) {
         this.id = id;
         this.name = name;
         this.date = date;
+        this.place = place;
     }
 
     public long getId() {
@@ -39,5 +41,13 @@ public class TournamentDTO {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
+    }
+
+    public String getPlace() {
+        return place;
     }
 }
