@@ -4,11 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cz.fain</groupId>
-	<artifactId>tournament-app</artifactId>
+	<artifactId>tournament</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>tournament-app</module>
+	</modules>
+	<packaging>pom</packaging>
 
-	<name>tournament-app</name>
+	<name>tournament</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
